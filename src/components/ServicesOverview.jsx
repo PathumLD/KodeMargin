@@ -49,10 +49,10 @@ const ServicesOverviewSection = () => {
             <motion.div
               key={index}
               className="text-center p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-all"
-              initial={{ opacity: 0, x: 50, scale: 0.95 }}
-              whileInView={{ opacity: 1, x: 0, scale: 1 }}
+              initial={{ opacity: 0, y: 50, scale: 0.95 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
               transition={{ 
-                delay: index * 0.15, 
+                // delay: index * 0.15, 
                 duration: 0.3, 
                 ease: [0.25, 0.1, 0.25, 1], 
                 type: "spring", 
