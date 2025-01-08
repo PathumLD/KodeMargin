@@ -34,16 +34,16 @@ const Header = () => {
             About Us
           </Link>
           <Link
-            to="/about"
+            to="/portfolio"
             className="text-gray-800 hover:text-red-500 transition-all relative"
           >
-            About Us
+            Portfolio
           </Link>
           <Link
-            to="/about"
+            to="/contact"
             className="text-gray-800 hover:text-red-500 transition-all relative"
           >
-            About Us
+            Contact Us
           </Link>
         </nav>
 
