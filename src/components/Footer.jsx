@@ -48,18 +48,18 @@ const Footer = () => {
               <li className="flex items-center">
                 <FaEnvelope className="w-5 h-5 mr-2 text-[#ffffff]" />
                 <a href="mailto:info@kodemargin.com" className="hover:text-[#FF0000] transition-all">
-                  info@kodemargin.com
+                  kodemargin@gmail.com
                 </a>
               </li>
               <li className="flex items-center">
                 <FaPhone className="w-5 h-5 mr-2 text-[#ffffff]" />
                 <a href="tel:+1234567890" className="hover:text-[#FF0000] transition-all">
-                  +123 456 7890
+                  +94711888358
                 </a>
               </li>
               <li className="flex items-center">
                 <FaMapMarkerAlt className="w-5 h-5 mr-2 text-[#ffffff]" />
-                <p>123 KodeMargin Street, Tech City, TC 12345</p>
+                <p>Sri Lanka</p>
               </li>
             </ul>
           </div>
@@ -115,7 +115,7 @@ const Footer = () => {
         {/* Copyright Notice */}
         <div className="text-center mt-12 border-t border-gray-700 pt-8">
           <p className="text-sm text-gray-400">
-            © 2023 KodeMargin. All Rights Reserved.
+            © 2024 KodeMargin. All Rights Reserved.
           </p>
         </div>
       </div>
