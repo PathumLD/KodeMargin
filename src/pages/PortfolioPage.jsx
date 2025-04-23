@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { projects } from "../data/Projects"; // Import projects data
-import Header from "../components/Header"; // Import Header
-import Footer from "../components/Footer"; // Import Footer
+import { projects } from "../data/Projects"; 
+import Header from "../components/Header"; 
+import Footer from "../components/Footer"; 
 
 const PortfolioPage = () => {
   const [selectedProject, setSelectedProject] = useState(null);
-  const [selectedCategory, setSelectedCategory] = useState("All"); // State for selected category
+  const [selectedCategory, setSelectedCategory] = useState("All");
 
   const openModal = (project) => {
     setSelectedProject(project);
@@ -24,13 +24,14 @@ const PortfolioPage = () => {
 
   return (
     <div className="bg-white">
-      {/* Header */}
+      
       <Header />
 
       {/* Portfolio Section */}
+      
       <section className="py-28">
         <div className="container mx-auto px-4">
-          {/* Headline */}
+          
           <motion.h2
             className="text-4xl md:text-5xl font-bold text-[#000438] text-center mb-12"
             initial={{ opacity: 0, y: 50 }}

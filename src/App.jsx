@@ -5,10 +5,12 @@ import './App.css'
 import AboutUsPage from "./pages/AboutUsPage";
 import PortfolioPage from "./pages/PortfolioPage";
 import ContactUsPage from "./pages/ContactUsPage";
+import ScrollToTop from "./utils/ScrollToTop";
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUsPage />} />
